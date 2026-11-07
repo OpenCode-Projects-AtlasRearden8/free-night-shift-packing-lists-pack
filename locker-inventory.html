@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Locker-Stash Inventory Card — Fill-In Tear-Out</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main class="page">
+
+  <p class="eyebrow">Free printable card</p>
+  <h1>Locker-Stash Inventory Card</h1>
+  <p class="brandline">The point of a locker stash is that it's there when the bag fails.
+  The failure mode is that you never remember what's in it, so you buy your fourth
+  six-pack of socks. Fill this in once, laminate or tape it inside the locker door,
+  update when you restock.</p>
+
+  <div class="toolbar">
+    <button type="button" class="btn" data-print>Print</button>
+    <button type="button" class="btn warn" data-clear-checks>Uncheck all</button>
+  </div>
+
+  <h2>Card 1 — What's in the drawer</h2>
+  <div class="tearout">
+    <p class="cutline scissors">Tear-out — fill in by hand, tape inside the locker door</p>
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>Stash item</th>
+          <th>Suggested</th>
+          <th>My qty</th>
+          <th>Last restocked</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Socks</td><td>2 pairs</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Scrub top / layer</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Wet wipes pack</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Dry wipes pack</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Snack, shelf-stable</td><td>2</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Backup meal item</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Lip balm</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Hand cream / lotion</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Hair ties / headband spares</td><td>3</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Pens + highlighter</td><td>3 + 1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Cheatsheet / brain-sheet pads</td><td>5 sheets</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Charger / cable, labeled</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Deodorant / body wipes</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Earplugs / sleep / rest mask</td><td>1 set</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Laundry bag (empty, collapsible)</td><td>1</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Emergency cash, small bills</td><td>$10–20</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Period or personal-care supplies, as applies to you</td><td>your count</td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td>Other: ______________</td><td></td><td class="blank"></td><td class="blank"></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Card 2 — Restock rituals</h2>
+  <div class="tearout alt">
+    <p class="cutline scissors warn">Tear-out — the why-it-empties rules</p>
+    <ul class="checklist">
+      <li><label><input type="checkbox" data-key="lk-r-auto">Anything below "1 full backup" gets replaced on the next shopping trip, not rusted into forever</label></li>
+      <li><label><input type="checkbox" data-key="lk-r-date">Foods get an expiration check on the first shift of every month (tape date on the item)</label></li>
+      <li><label><input type="checkbox" data-key="lk-r-laundry">Laundry day = restock day. Two chores, one calendar slot</label></li>
+      <li><label><input type="checkbox" data-key="lk-r-borrow">If you borrowed it and used it, replace it that night. The stash is not a personal pantry to drain silently</label></li>
+      <li><label><input type="checkbox" data-key="lk-r-swap">Off-shift month? Swap shelf-stable snacks for unexpired ones before your return</label></li>
+      <li><label><input type="checkbox" data-key="lk-r-clearout">Quarterly clear-out: remove expired, melted, mystery, or sentimental-but-wrong items</label></li>
+    </ul>
+  </div>
+
+  <h2>Card 3 — Wallet-size pocket copy</h2>
+  <div class="tearout">
+    <p class="cutline scissors">Tear-out — fold or cut; fits a badge sleeve</p>
+    <p><strong>My stash, in one glance:</strong></p>
+    <ul class="checklist">
+      <li><label><input type="checkbox" data-key="lk-a-socks">Socks</label></li>
+      <li><label><input type="checkbox" data-key="lk-a-top">Top / layer</label></li>
+      <li><label><input type="checkbox" data-key="lk-a-wipes">Wipes (wet + dry)</label></li>
+      <li><label><input type="checkbox" data-key="lk-a-snack">Snack + meal backup</label></li>
+      <li><label><input type="checkbox" data-key="lk-a-pens">Pens</label></li>
+      <li><label><input type="checkbox" data-key="lk-a-misc">Balm / cream / ties</label></li>
+      <li><label><input type="checkbox" data-key="lk-a-cash">Cash</label></li>
+      <li><label><input type="checkbox" data-key="lk-a-cable">Cable</label></li>
+    </ul>
+    <p style="font-size:0.85rem; color:var(--muted);">
+      Restocked on: ____________&nbsp;&nbsp;&nbsp;Next check: ____________
+    </p>
+  </div>
+
+  <div class="footer-note">
+    <p class="license-tag">Free pack by <strong>Asdale Dynamics, LLC</strong>.
+    MIT licensed. Education only — not medical advice. See the
+    <a href="index.html">full pack</a>.</p>
+  </div>
+
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
